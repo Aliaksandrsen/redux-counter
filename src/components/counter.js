@@ -17,7 +17,7 @@ const Counter = ({ counter, dec, inc, rnd }) => {
 
 const mapStateToProps = (state) => {
     return {
-        counter: state
+        counter: state.counter,
     };
 };
 
